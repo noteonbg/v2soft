@@ -130,6 +130,103 @@ if you see multiple files.. it usually means there is some architecture used.
 and until you know architecture we will not know which file to open..
 
 
+while working on tools for any programmer.
+1. first comes patience and then comes intelligence...
+
+design
+intelligence first, patience next. why to accept tradeoffs, we need intelligence...
+
+
+what is intent of IntelliJ, guy or eclipse guy or visual code guy..(company)
+
+secret intent all of us should get addicted to their product and use their product only..
+by adding lot of features which work only in their product and nobody else.. that is
+good intent for that company, but for us it is bad intent..
+
+i "know" the language minimum
+
+
+1. documentation standard for the language (1/5)
+2. we should be good variables data types, scopes, casting rules (5/5)
+3. handle runtime errors and quantify them (5/5)
+4. string and date handling (2/5)
+5. data structure usage of list, map.... ( 3/5)
+6. editor, unit testing, how to profile, how to package code.. how to use libraries (0.000/5)
+
+
+kids thrill of looking at output
+
+
+first practical assignment..
+
+. just write hello world and be conscious where the file is present.
+open command prompt and run the program in the command prompt..
+
+jvm will understand from package folders only..
+
+
+code in eclipse or IntelliJ or visual code
+run it in command prompt , why that is way how things run in the cloud or in the client place..
+
+
+we want to run it in command prompt..
+1. know which version of java did you compile..
+we have compiled it in 19
+
+
+kids like output.heroism does not..
+
+adults like process. why process gives repeatability
+
+I compiled with version X  ( jdk19)
+and i an running with version X- it wont run...  ( jdk17)
+
+once a class is present in package read the classname pacakgename.classname.
+
+a java programmer who does not know how to use classpath is not a java programmer..
+
+classpth is used by jvm and we tell the jvm hey look at this place... for the classes.
+in the classpath exclude the package folder..
+
+8.00Am we start
+9.30 to 9.45AM we will have break
+9.45 to 11.00AM ..
+
+
+1. you have create a hello world project in IntelliJ 
+2. compile and run in the tool.
+3. come to command prompt and try to run the program and not compile
+
+set classpath=folder which contains the package folder.
+
+
+4. https://github.com/noteonbg/v2soft.git
+	5. in the v2soft\codesample folder archcode is available.
+	that is a package folder, copy that into your src and understand the code..
+	when you run the code. it will give a null pointer exception try to fix it..
+5. calculator program in java, how will you write it, write a code and show it.
+
+
+you wrote a calculator program.
+how many files did you create
+2 or 3 or 5
+only 1 sinner..
+
+main function ... 1 java..
+presentation..  1 java   -- 
+sysout.. displaying the result. calling the logic 
+logic -- 1 java..  --service --
+functions
+
+most we jump into spring boot ... can we write code according to architecture..
+3 tier architecture..
+
+presentation
+service
+dao layer..
+models or entities..
+
+Thanks a lot.
 
 
 
@@ -159,6 +256,24 @@ and until you know architecture we will not know which file to open..
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if we tell we are going to call the function
+some where in teh code..
 
 
 
