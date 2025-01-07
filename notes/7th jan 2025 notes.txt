@@ -257,7 +257,25 @@ if you forget to write it.. what does it result in
 compilation or logical error.
 
 
-9.31 .. 9.46 AM and come back..
+spend time understanding teh archcode code sample
+and see whether how it is working
+
+loan application poc which is present in assignment folder.
+
+we are not using a database we are using datastructure like List or Map
+to store things..
+
+what to do.
+1. understand the archcode.. and see are you able to understand all the functions.
+2. loan management poc attempt in 3 tier code.
+
+
+
+
+
+
+
+
 
 
 
