@@ -1,9 +1,7 @@
-package archcode;
+package archcodewithspringdb;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Vector;
 
 public class ListBasedMockDAOImplementation implements DAOInterface {
 	
@@ -95,6 +93,12 @@ public class ListBasedMockDAOImplementation implements DAOInterface {
 		}
 		
 		return cusers;
+	}
+
+	@Override
+	public void releaseDb() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

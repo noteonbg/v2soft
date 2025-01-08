@@ -1,9 +1,7 @@
-package archcode;
+package spring_archcode;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Vector;
 
 public class ListBasedMockDAOImplementation implements DAOInterface {
 	
@@ -56,9 +54,9 @@ public class ListBasedMockDAOImplementation implements DAOInterface {
 		{
 			//think why are we doing this.
 			CUser userFromList = users.get(pos);
-			user.setEmail(user.getEmail());
-			user.setPassword(user.getPassword());
-			user.setPincode(user.getPincode());
+			userFromList.setEmail(user.getEmail());
+			userFromList.setPassword(user.getPassword());
+			userFromList.setPincode(user.getPincode());
 			updatedStatus = true;
 				
 		}

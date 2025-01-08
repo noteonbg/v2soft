@@ -257,7 +257,7 @@ if you forget to write it.. what does it result in
 compilation or logical error.
 
 
-spend time understanding teh archcode code sample
+spend time understanding the archcode code sample
 and see whether how it is working
 
 loan application poc which is present in assignment folder.
@@ -268,6 +268,8 @@ to store things..
 what to do.
 1. understand the archcode.. and see are you able to understand all the functions.
 2. loan management poc attempt in 3 tier code.
+
+
 
 
 
