@@ -1,0 +1,10 @@
+practically.
+
+1. calculator... objective ... business logic and presentation separate.
+2. home loan program... ( we can have two kind of stupid people.. 
+2.1 I hate all rules..(flavor of stupidity)
+2.2 i am fan of rules ( flavor of stupidity)
+3. understanding the archcode example..
+4. Task... 
+5. copy paste programs on some design patterns..
+

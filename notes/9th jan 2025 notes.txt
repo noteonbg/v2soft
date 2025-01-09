@@ -1,0 +1,151 @@
+looking at spring code.. and spring boot code...
+
+tell me about spring.
+1. java based framework to be used in service layer(business layer) and dao layer)
+2. tell me where we will not use today... presentation layer... can I use spring
+in presentation layer yes.. but we will not use it, because java is no longer
+the boss of presentation layer per say...( mobileapp, web app, desktop.. QT...)
+
+advantage of spring.
+1. loose coupling..
+2. x+spring = x becomes easier
+3. aspect oriented programming.
+
+spring boot.. is not  replacement of spring, it is a cover on spring..
+spring boot makes spring easier to use.. how...
+if we spend x time on configuring in spring.
+in spring boot it is y time you be sure y < x;
+
+Annotation. who are we .. user or creator, in doubt. ok we are user..
+
+1.what is benefit you get.. 
+2. when you will get the benefit
+3. on what you have to use annotation.. ie class, variable or the method how will i know
+open documentation..
+4. ok. if you think annotation is an application of reflection.
+
+intent first language next.. national anthem...
+
+what is our intent..
+to solve customer problems(X) or improve our technical skills at customer's cost.(Y)
+ok what it does it mean technically?
+
+prefer higher level of abstraction... 
+
+ghosts should come to earth...
+any intent should be backed with lot of action with details..
+
+
+we should be fan of any rule but when we violate rules we should be able to give
+reason why we violated the rule..
+
+I want to remember less. that means generalize.. that means learn design patterns
+that is part of generalizing..
+
+
+spring coding
+1. architecture spring cannot decide we decide.
+2. where you want loose coupling and wehere you want tight coupling we decide..
+3. ask spring to create objects, wire it and get the object from spring..
+
+
+I am using spring framework.. means
+1. i must be using the spring related classes, interfaces and annotations 
+
+maven as a build tool
+
+build tool.( java based world maven, graddle--zero value add from customer perspective
+developer perspective)
+1. assemble the code.
+2. compile the code.
+3. package the code.
+4. deploy the code
+5. run the code..
+1 to 5 are monotonous things.. repetitive things so better let the tool do the job..
+
+steps in coding spring framework...
+0. decide the architecture
+1. create the classes and interfaces.
+2. which one to wire where... (put one thing inside other)
+3. decide which object will be created by spring which object will be created by us...
+and remember it
+4. tell spring hey create the object and wire it ( xml or annotations(preferred )
+5. ask spring to process this annotation or xml.
+6. sprng would have object with it.
+7. ask spring hey give me the object.. ( ends the sprng code then what we do is our logic)
+
+logging in constructors..
+if a  line in constructor gets logged, that means object of the class has been created
+
+which libraries to include int he project.
+requires patience...
+
+it depends on what are we doing..
+here I am interested in just hello world spring... == create object wire it.
+
+if we have  class called A
+if we have class called B
+inside B there is a function f1, 
+
+class B
+{
+public void f1(A temp)
+{
+
+}
+
+
+}
+
+to f1 function of B, we need object of B and object of A also.
+
+
+when you see a new class, bp issue should not come , because if we open
+documentation it will tell us.. what it will do..
+nobody is asking us to do astrology on a classname which is from a library...
+
+scary ghost world in computer science "it is inbuilt"
+since we  are mentioning the file name.. file name can be anything.. carrot.xml
+beans.xml
+
+create object of presentation
+create object of business layer
+creat object of dao
+wire dao in business layer
+wire business layer in presentation.
+
+create object of model
+create object of view.
+wire model inside view.
+
+create database connection object.
+create dao object.
+wire connection object in dao.
+
+during spring framework, know core java is most important thing..
+
+day 1 story a programmer who is not good at variables and functions should
+not be a programmer.
+
+
+
+
+
+two common jargons used in spring..
+1. dependency injection
+2. inversion of control.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

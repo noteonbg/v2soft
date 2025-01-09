@@ -6,7 +6,7 @@ public class TestdA {
 		// TODO Auto-generated method stub
 		A obj =new A();
 		B obj1 =new B();
-		obj.setJunk(obj1);
+		//obj.setJunk(obj1);
 		obj.f4();
 
 	}
