@@ -12,33 +12,38 @@ public class TestSpring {
 		ApplicationContext ctx = new
                 ClassPathXmlApplicationContext( "carrot.xml" );
 		
-		
-		Mobile m=ctx.getBean(Mobile.class);
-		m.makeCall();
-		
-		
-		
-		
-		//if we have clarity in OO in our desing, then coding is simple.
-		
-	// i will askspring to give me  the object.
-		//p.startTheApp();
-		
 		/*
+		Mobile m=ctx.getBean(Mobile.class);//with this spring job is over..
+		m.makeCall();
+
+		String s =ctx.getBean(String.class);
+
+		*/
+
+
+		
+		
+		
+		
+		//if we have clarity in OO in our design, then coding is simple.
+		
+
+		
+
 		Presentation p = ctx.getBean(Presentation.class);//after this spring job is over...
+
+		p.startTheApp();// business logic...
 		
-		DAOLayer d = ctx.getBean(DAOLayer.class);
+		//DAOLayer d = ctx.getBean(DAOLayer.class);
 		
-		B obj =ctx.getBean(B.class);
+
 		
 		
 		//Presentation p =new Presentation();
-		p.startTheApp();// business logic...
+
 		
 		
-		//after this tells pring hey give me the wired object.
-		*/
-		
+
 		
 		
 		

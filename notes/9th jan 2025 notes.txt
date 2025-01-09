@@ -135,9 +135,63 @@ two common jargons used in spring..
 1. dependency injection
 2. inversion of control.
 
+in spring boot or in spring
+we should be conscious of which object spring has created ..
+
+A and B..
+and what you have seen put B inside A.
+
+inversion of control -- instead of we creating objects we will ask spring to create objects.
+dependency injection. -- 
+
+dependency
+if you have two classes.
+A and B if object one class is needed locally in another class. then it is called dependency.
 
 
 
+local
+1. class
+2. function ( local applies)
+3. package.
+4. none of the above.
+
+
+injection
+
+any input argument to the function is a local variable in any programming language
+
+public void f1(int x)
+{
+int y =3;
+
+}
+
+how many local variables do you see, answer is 2.
+x and y.
+what is difference between x and y
+x is assingned by the caller of the function
+y is assigned by owner of the function.
+
+
+inversion of control.
+1. you just think of instead of we creating object. spring is creating object.
+
+dependency injection
+1. dependency... between two classes, object of one class is used in context of a function
+of other class.. local usage..
+2. injection, because of programmer is not calling the function, framework is calling it.
+
+in spring or spring boot.
+
+1. do we know which object spring should create
+2. how the wiring should happen.
+3. ask spring hey give me the object.
+with that spring job is over.
+4. taking object of 3 and calling some non static functions is our logic..
+
+after you create an object what do we do.
+answer is very simple call non static functions of the class.
 
 
 

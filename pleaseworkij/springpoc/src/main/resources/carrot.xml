@@ -5,6 +5,8 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
    
    <bean id="obj2" class="testhelloworld.B"/>
    
@@ -14,20 +16,7 @@
    </bean>
    
    
-   <!-- 
-   <bean id="x" class="basics.spring.A" >
-   <property name="abc" ref="y"/>
-   </bean>
-   
-   
-   <bean id="y" class="basics.spring.B" /> 
-   
-   
-   
-   
-   <bean id="yobj" class="basics.spring.B" />
-   
-   -->
+
    
    
    
@@ -40,18 +29,10 @@
    
    
    
-  <!--  <bean id="x"    class="poc.springbasics.A"></bean>
-   
-   <bean id="y"    class="poc.springbasics.B"></bean>
-   
-       <bean id="why"    class="poc.springbasics.B"></bean>
-          <bean id="where"    class="poc.springbasics.B"></bean>
-          
-             <bean id="when"    class="poc.springbasics.B"></bean>
-     -->
+
      
      
-     <!-- 
+
      <bean id="s1"    class=" poc.springbasics.Sim">
      <property name="simno" value="1"/>
        </bean>
@@ -63,24 +44,24 @@
        
        
      <bean id="m1"    class=" poc.springbasics.Mobile">
-     <property name="s" ref="s1"/>
+     <property name="horrible" ref="s2"/>
        </bean>
        
-       
+       -->
        
 
 
-   <bean id="x"    class="poc.springbasics.Presentation">
-   <property name="s"  ref="y"></property>
+   <bean id="x"  class="poc.springbasics.Presentation">
+   <property name="s"  ref="y"/>
    </bean>
 
    <bean id="y"    class="poc.springbasics.ServiceLogic">
-   <property name="d" ref="z"></property>
+   <property name="d" ref="z"/>
    </bean>
 
-   <bean id="z"    class="poc.springbasics.DAOLayer"></bean>
+   <bean id="z"  class="poc.springbasics.DAOLayer"/>
 
 
- -->
+
 
 </beans>
