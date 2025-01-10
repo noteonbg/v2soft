@@ -1,9 +1,10 @@
-package poc.springbasics;
+package archpocannotations;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-
-
+@Component
 public class Presentation {
 	
 	private ServiceLogic s;
@@ -15,6 +16,7 @@ public class Presentation {
 	
 	
 
+	@Autowired
 	public void setS(ServiceLogic s) {
 		System.out.println("service object wired in prsentation");
 		this.s = s;

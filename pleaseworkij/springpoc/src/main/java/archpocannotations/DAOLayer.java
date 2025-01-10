@@ -1,5 +1,8 @@
-package poc.springbasics;
+package archpocannotations;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class DAOLayer {
 	
 	public  DAOLayer()

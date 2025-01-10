@@ -5,6 +5,11 @@ public class X {
 
     private Y fate;
 
+    public X( Y temp)  // constructor injection
+    {
+
+    }
+
     public void setScrap( Y temp)  // Dependancy injection
     {
         System.out.println("Y wired in X thru setScrap");

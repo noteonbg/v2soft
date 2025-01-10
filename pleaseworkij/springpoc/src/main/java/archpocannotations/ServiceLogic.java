@@ -1,5 +1,9 @@
-package poc.springbasics;
+package archpocannotations;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class ServiceLogic {
 	
 	private DAOLayer d;
@@ -11,6 +15,7 @@ public class ServiceLogic {
 	
 	
 
+	@Autowired
 	public void setD(DAOLayer d) {
 		System.out.println("dao layer object wired in service");
 		this.d = d;

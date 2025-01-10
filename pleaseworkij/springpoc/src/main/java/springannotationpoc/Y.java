@@ -1,5 +1,8 @@
-package tolerateuncertainty;
+package springannotationpoc;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Y {
 
     public Y()

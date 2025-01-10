@@ -189,9 +189,68 @@ in spring or spring boot.
 3. ask spring hey give me the object.
 with that spring job is over.
 4. taking object of 3 and calling some non static functions is our logic..
+5. while doing 1 to 4. be conscious which object spring has got.
+
 
 after you create an object what do we do.
 answer is very simple call non static functions of the class.
+
+we should spend lot of time on xml.. but xml way of doing things knowing no harm..
+
+if you are doing xml based configured, calling happens thru java bean naming convention.
+
+
+java bean a class which adhers to naming conventions for setters and getters.
+
+class A
+{
+
+public void setFreak(X temp)
+{
+}
+
+public X getFreak()
+{
+return null;
+}
+
+}
+
+}
+advantage of java bean naming convnetions is simple frameworks know it and they
+will call the functions..
+
+
+whenever you look at xml or annotations usage in spring. first thing
+dont worry about how it runs..
+think can you visualize the architecture..
+
+
+
+X obj =new Y();
+100% it means X is a super class or X is an interface.
+
+
+those who amplify the cost of failure will always create a misery in the project.
+
+when code is not working if bp raises.. pathetic thing. just relax and think
+what to change in the code..
+
+step 1
+run these code samples present in.
+poc.spring basics.
+look at carrot.xml for the configuration.
+
+step 2
+think how you mak your calculator and homeloan project
+into a spring related project..
+
+step 3
+archcode into spring related code..
+
+
+
+
 
 
 

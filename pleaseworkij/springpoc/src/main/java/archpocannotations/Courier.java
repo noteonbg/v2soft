@@ -1,4 +1,4 @@
-package poc.springbasics;
+package archpocannotations;
 
 public class Courier {
 	
