@@ -8,10 +8,10 @@
 		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>demo.poc</groupId>
-	<artifactId>springbootexample</artifactId>
+	<groupId>com.poc</groupId>
+	<artifactId>webbasedspringboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springbootexample</name>
+	<name>webbasedspringboot</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -30,13 +30,10 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

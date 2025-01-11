@@ -9,7 +9,7 @@ public class AppConfig {
     @Bean
     public LoanApplicationService loanApplicationService() {
         LoanApplicationService service = new LoanApplicationService();
-        service.setApplicantName("John Doe");
+        service.setApplicantName("pqr");
         service.setLoanAmount(50000);
         return service;
     }

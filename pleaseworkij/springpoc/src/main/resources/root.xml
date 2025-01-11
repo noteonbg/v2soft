@@ -12,4 +12,8 @@
 
     <bean id="obj2" class="tolerateuncertainty.Y"/>
 
+
+
+
+
 </beans>

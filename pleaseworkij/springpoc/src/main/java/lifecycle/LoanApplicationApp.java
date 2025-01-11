@@ -7,7 +7,7 @@ public class LoanApplicationApp {
 
     public static void main(String[] args) {
         // Load Spring context from XML configuration
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("lifecycle.xml");
 
         // Retrieve the LoanApplicationService bean
         LoanApplicationService loanService = context.getBean("loanApplicationService", LoanApplicationService.class);

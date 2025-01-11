@@ -7,4 +7,9 @@ practically.
 3. understanding the archcode example..
 4. Task... 
 5. copy paste programs on some design patterns..
+6. spring framework code using xml and using annotations. 
+6.1 calculator.
+6.2 loan
+6.3 archcode
+
 
