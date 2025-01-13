@@ -1,4 +1,4 @@
-package databasepoc;
+package jdbcpoc;
 
 public class CUser {
 	
@@ -43,14 +43,7 @@ public class CUser {
 	public void setPincode(int pincode) {
 		this.pincode = pincode;
 	}
-
-	@Override
-	public String toString() {
-		return "CUser{" +
-				"username='" + username + '\'' +
-				", password='" + password + '\'' +
-				", email='" + email + '\'' +
-				", pincode=" + pincode +
-				'}';
-	}
+	
+	
+	
 }

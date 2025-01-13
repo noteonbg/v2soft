@@ -270,14 +270,10 @@ take a break 11.16 AM
 3. convert the calculator program and loan app into a spring boot program
 and see whether it works..
 4. install MySQL and see whether you are able to see the command prompt
-of MySQL and see some databases and some tables in the databsase.
+of MySQL and see some databases and some tables in the database.
 
 
 
-
-
-database superset word
-table subset word
 
 
 
