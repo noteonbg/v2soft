@@ -6,6 +6,7 @@ import org.springframework.dao.DuplicateKeyException;
 import org.springframework.jdbc.CannotGetJdbcConnectionException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 
 import java.sql.SQLException;
@@ -49,6 +50,10 @@ public class SpringJDBC {
         String sql ="select username,password, email, pincode from cuser  where pincode=?";
         Object params[]= {pincode};
         BeanPropertyRowMapper<CUser> rw = BeanPropertyRowMapper.newInstance(CUser.class);
+
+        RowMapper<CUser> x =new WhoCaresForTheName();
+
+
         try {
             l = jt.query(sql, params,rw);//in case you get multiple rows..
         } catch (DataAccessException e) {

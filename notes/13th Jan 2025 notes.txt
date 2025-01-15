@@ -167,6 +167,8 @@ if we are using spring boot , jdbcTemplate object will get created automatically
 we dont need to create it..
 
 welcome to spring boot. spring boot autoconfigures lot of things depending
+
+
 on what library is found in your classpath..
 web library.. http server is configured..
 database librarty.. jdbctemplate or its equivalents are autoconfigured..
@@ -204,6 +206,7 @@ before doing a bad tell good things and then do a bad thing..
 4. copy paste any random jdbc template example from google and prove it works
 in your system..
 dont focus on architecture just focus on jdbctemplate usage..
+
 
 
 
